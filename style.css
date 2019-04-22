@@ -1,0 +1,161 @@
+html {
+    background-color: rgb(251,248,239);
+}
+
+h1 {
+    color: rgb(233,89,55);
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    color: rgb(40, 40, 40);
+}
+
+.regles {
+    background-color: rgb(202,192,180);
+    border-radius:10px;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+table {
+    background-color: rgb(185,173,161);
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    border-spacing: 12px;
+    position:relative;
+    top: 10px;
+    left: 100px;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(202,192,180);
+    border-radius: 16px;
+    font-size: 72px;
+    color: rgb(114,105,96);
+}
+
+
+.grille { 
+    width : 600px; 
+    height : 600px; 
+    position : auto; 
+    background-color: rgb(185,173,161);
+    border-radius: 20px;
+}
+
+
+.cellule { 
+    display: inline-block;
+    text-align: center;
+}
+
+.liens {
+    position:relative;
+    top: 20px;
+}
+
+.button {
+    display: inline;
+}
+
+input {
+    background-color: rgb(237,153,91);
+    color: white;
+    width: 300px;
+    height: 45px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.gauche, .haut, .bas, .droite {
+    width: 300px;
+    height: 90px;
+    font-size: 60px;
+    position:absolute;
+    border-radius: 12px;
+}
+
+.gauche {
+    left: 850px;
+    top: 600px;
+}
+
+.haut {
+    left: 1160px;
+    top: 500px;
+}
+
+.bas {
+    left: 1160px;
+    top: 600px;
+}
+
+.droite {
+    left: 1470px;
+    top: 600px;
+}
+
+.c2 {
+    background-color: rgb(238, 228, 218);
+    color: rgb(105, 99, 93);
+}
+
+.c4 {
+    background-color: rgb(236, 224, 202);
+    color: rgb(105, 99, 93);
+}
+
+.c8 {
+    background-color: rgb(240, 177, 121);
+    color: rgb(244, 248, 245);
+}
+
+.c16 {
+    background-color: rgb(245, 149, 101);
+    color: rgb(244, 248, 245);
+}
+
+.c32 { 
+    background-color: rgb(245, 124, 95);
+    color: rgb(244, 248, 245);
+}
+
+.c64 {
+    background-color: rgb(246, 93, 59);
+    color: rgb(244, 248, 245);
+}
+
+.c128 {
+    background-color: rgb(247, 206, 113);
+    color: rgb(244, 248, 245);
+}
+
+.c256 {
+    background-color: rgb(247, 204, 99);
+    color: rgb(244, 248, 245);
+}
+
+.c512 {
+    background-color: rgb(228, 192, 42);
+    color: rgb(244, 248, 245);
+}
+
+.c1024 {
+    background-color: rgb(234, 187, 64);
+    color: rgb(244, 248, 245);
+}
+
+.c2048 {
+    background-color: rgb(238, 194, 46);
+    color: rgb(244, 248, 245);
+}

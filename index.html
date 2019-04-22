@@ -1,0 +1,45 @@
+ 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8" />
+        <title>Le Jeu 2048</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Bienvenue sur le jeu 2048.</h1>
+        <div class="regles">
+            <p>
+                Le <b>jeu 2048</b> se joue sur une grille de 4*4. Chaque case est rempli d'une <b>puissance de deux</b>.
+                <br /> On peut changer la position des cases avec les <b>boutons</b>. Si deux cases ont la <b>meme valeur</b> elles <b>s'additionneront</b>.
+                <br /> L'objectif est d'obtenir le score <b>2048</b>.
+                <br /> <b>Bonne chance.</b>
+            </p>
+        </div>
+        <div class="boutons"> <br/> Votre score est: 0. <a href=""> Recharger la page.</a> </div>
+        <form class="button" name="jeu-2048" method="get" action="jeu-2048.php"> 
+            <input type="submit" name="action-joueur" value="Nouvelle partie" /> </p>
+        </form>
+        <table>
+            <tr> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+            <tr> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+            <tr> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+            <tr> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+        </table>
+        <form name="jeu-2048" method="get" action="jeu-2048.php"> 
+                <input class="gauche" type="submit" name="action-joueur" value="Gauche" /> </p>
+                <input class="haut" type="submit" name="action-joueur" value="Haut" /> </p>
+                <input class="bas" type="submit" name="action-joueur" value="Bas" /> </p>
+                <input class="droite" type="submit" name="action-joueur" value="Droite" /> </p>
+        </form>
+        <p class="liens"> Lien de la <a href="http://perso.univ-lyon1.fr/olivier.gluck/supports_enseig.html#LIFASR2">page web de l'UE</a>. </p>
+        <!--
+        <div class="grille">
+            <div class="ligne"> <div class="cellule"> 0 </div> <div class="cellule"> 0 </div> <div class="cellule"> 0 </div> <div class="cellule"> 0 </div> </div>
+            <div class="ligne"> <div class="cellule"> 0 </div> <div class="cellule"> 0 </div> <div class="cellule"> 0 </div> <div class="cellule"> 0 </div> </div>
+            <div class="ligne"> <div class="cellule"> 0 </div> <div class="cellule"> 0 </div> <div class="cellule"> 0 </div> <div class="cellule"> 0 </div> </div>
+            <div class="ligne"> <div class="cellule"> 0 </div> <div class="cellule"> 0 </div> <div class="cellule"> 0 </div> <div class="cellule"> 0 </div> </div>
+            </div>
+        -->
+    </body>
+</html>
